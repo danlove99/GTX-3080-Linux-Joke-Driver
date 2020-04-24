@@ -18,4 +18,7 @@ Write to the driver<br/>
 `echo 'message' > /dev/GTX-3080`<br/>
 Read from driver<br/>
 `cat /dev/GTX-3080`<br/>
-<br/>
+Delete from /dev<br/>
+`rm GTX-3080`<br/>
+Remove from kernel<br/>
+`sudo rmmod GTX-3080`<br/>
