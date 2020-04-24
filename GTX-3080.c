@@ -3,8 +3,8 @@
 #include <linux/fs.h>
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Robert W. Oliver II");
-MODULE_DESCRIPTION("A simple example Linux module.");
+MODULE_AUTHOR("Dan Love");
+MODULE_DESCRIPTION("A 100% legit Nvidia GTX-3080 driver");
 MODULE_VERSION("0.01");
 
 
