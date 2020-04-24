@@ -7,14 +7,15 @@
 A joke lkm that shows gtx-3080 in the devices folder. The driver produces text to the system log when written to or read from. 
 
 # How to
-Setup
-`make`
-`sudo insmod GTX-3080.ko`
-`cd /dev`
-`sudo mknod -m 666 GTX-3080 240 0`
-Check system log
-`tail -f /var/log/syslog`
-Write to the driver
-`echo 'message' > /dev/GTX-3080`
-Read from driver
-`cat /dev/GTX-3080`
+Setup<br/>
+`make`<br/>
+`sudo insmod GTX-3080.ko`<br/>
+`cd /dev`<br/>
+`sudo mknod -m 666 GTX-3080 240 0`<br/>
+Check system log<br/>
+`tail -f /var/log/syslog`<br/>
+Write to the driver<br/>
+`echo 'message' > /dev/GTX-3080`<br/>
+Read from driver<br/>
+`cat /dev/GTX-3080`<br/>
+<br/>
