@@ -11,7 +11,7 @@ Setup<br/>
 `make`<br/>
 `sudo insmod GTX-3080.ko`<br/>
 `cd /dev`<br/>
-`sudo mknod -m 666 GTX-3080 240 0`<br/>
+`sudo mknod -m 666 GTX-3080 c 240 0`<br/>
 Check system log<br/>
 `tail -f /var/log/syslog`<br/>
 Write to the driver<br/>
