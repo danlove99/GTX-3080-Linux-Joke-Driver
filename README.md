@@ -13,7 +13,10 @@ Setup<br/>
 `cd /dev`<br/>
 `sudo mknod -m 666 GTX-3080 c 240 0`<br/>
 Check system log<br/>
+for ubuntu/debian systems:<br/>
 `tail -f /var/log/syslog`<br/>
+for arch/manjaro: <br/>
+`journalctl`<br/>
 Write to the driver<br/>
 `echo 'message' > /dev/GTX-3080`<br/>
 Read from driver<br/>
