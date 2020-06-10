@@ -1,1 +1,0 @@
-cmd_/home/dan/Documents/gtx-3080-linux-joke-driver/GTX-3080.mod := { echo  /home/dan/Documents/gtx-3080-linux-joke-driver/GTX-3080.o; echo; } > /home/dan/Documents/gtx-3080-linux-joke-driver/GTX-3080.mod
