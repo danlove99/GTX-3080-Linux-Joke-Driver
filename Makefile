@@ -1,4 +1,4 @@
-obj-m	:= GTX-3080.o
+obj-m	:= GTX-4080.o
 
 KERNELDIR ?= /lib/modules/$(shell uname -r)/build
 PWD       := $(shell pwd)
