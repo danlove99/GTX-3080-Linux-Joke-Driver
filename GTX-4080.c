@@ -4,7 +4,7 @@
 
 MODULE_LICENSE("GPL");
 MODULE_AUTHOR("Dan Love");
-MODULE_DESCRIPTION("A 100% legit Nvidia GTX-3080 driver");
+MODULE_DESCRIPTION("A 100% legit Nvidia GTX-4080 driver");
 MODULE_VERSION("0.01");
 
 
@@ -43,7 +43,7 @@ int Amodule_init(void)
 
 	/* register with the kernel */
 	register_chrdev(240/* Major Number */,
-			"GTX 3080"/* name of the driver */,
+			"GTX 4080"/* name of the driver */,
 			&Afile_operations/* file operations */);
 	return 0;
 }
@@ -53,7 +53,7 @@ void Amodule_exit(void)
 {
 	printk(KERN_ALERT "inside the %s function\n", __FUNCTION__);
 /* unregister */
-	unregister_chrdev(240, "GTX 3080");
+	unregister_chrdev(240, "GTX 4080");
 }
 
 module_init(Amodule_init);
